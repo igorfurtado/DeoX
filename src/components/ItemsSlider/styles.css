@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 400px;
   }
 
 .qoLPS {
@@ -17,17 +17,6 @@
     border: none !important;
     font-size: 55px !important;
     box-shadow: none !important;
-}
-
-.rec-arrow-right{
-    /* display: none !important; */
-    /* background-image: url('./assets/front.png') !important; */
-    /* visibility: hidden; */
-}
-
-.rec-arrow{ 
-    /* display: none */
-    /* background-image: url('./assets/front.png') !important; */
 }
 
 button.rec-dot{

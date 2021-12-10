@@ -5,8 +5,13 @@ export default function SliderContent({ activeIndex, imageSlider }) {
         <section>
             {imageSlider.map((slide, index) => <div key={index} className={index === activeIndex ? "slides active" : "inactive"}>
                 <img className="slide-image" src={slide.urls} alt=""></img>
-                <h2 className="slide-title">{slide.title}</h2>
-                <h3 className="slide-text">{slide.description}</h3>
+                <h2 className="text-blue title-h1 on-media">Deo X na mídia.</h2>
+                <div className="wrapper-media">
+                    <div className="box-media">
+                        <h2 className="slide-title"><span className="text-orange">|</span>{slide.title}</h2>
+                        <h3 className="slide-text">{slide.description}</h3>
+                    </div>
+                </div>
             </div>
             )}
         </section>

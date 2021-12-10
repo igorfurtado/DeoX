@@ -5,9 +5,13 @@ export default styled.div`
   justify-content: center;
   align-items: center;
   height: 250px;
+  max-height: 250px;
+  max-width: 250px;
+  position: relative;
   width: 100%;
-  background-color: #00008B;
-  color: #fff;
+  background-color: #EDE8E8;
+  color: #003566;
   margin: 0 15px;
   font-size: 4em;
+  border-radius: 7px;
 `;

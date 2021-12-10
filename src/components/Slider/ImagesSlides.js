@@ -1,23 +1,18 @@
-import React from 'react';
-
-export default [{
-    title: "First slider",
-    description: "This is the first slider",
-    urls: "https://images.pexels.com/photos/7176970/pexels-photo-7176970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+const list = [{
+    title: " Jornal Diamante",
+    description: '"Investir em marketing digital colocou o Deo X no mesmo patamar de popularidade que os irmãos mais velhos do ramo das fintechs."',
+    urls: "./assets/bg-white-noise.jpg"
 },
 {
-    title: "Second slider",
-    description: "This is the second slider",
-    urls: "https://images.pexels.com/photos/10161166/pexels-photo-10161166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    title: " Jornal Rubi",
+    description: '"Pontuar com um cartão pré-pago que não cobra taxa de anuidade é um diferencial oferecido pelo Deo X."',
+    urls: "./assets/bg-white-noise.jpg"
 },
 {
-    title: "Third slider",
-    description: "This is the third slider",
-    urls: "https://images.pexels.com/photos/7176970/pexels-photo-7176970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-},
-{
-    title: "Fourth slider",
-    description: "This is the fourth slider",
-    urls: "https://images.pexels.com/photos/10161166/pexels-photo-10161166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    title: " Jornal Turmalina",
+    description: '"Deo X amplia a oferta de produtos e serviços e cresce em valor de mercado exponencialmente em seus seis meses de existência."',
+    urls: "./assets/bg-white-noise.jpg"
 }
 ]
+
+export default list;
