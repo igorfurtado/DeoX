@@ -1,0 +1,65 @@
+.App {
+    font-family: "Sora", sans-serif !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+  }
+
+.qoLPS {
+    max-width: 70%;
+}
+
+.jRFJkP, .cNNJIt {
+    background-color: transparent !important;
+    /* background-image: url('./assets/front.png') !important; */
+    color: #FFC300 !important;
+    border: none !important;
+    font-size: 55px !important;
+    box-shadow: none !important;
+}
+
+.rec-arrow-right{
+    /* display: none !important; */
+    /* background-image: url('./assets/front.png') !important; */
+    /* visibility: hidden; */
+}
+
+.rec-arrow{ 
+    /* display: none */
+    /* background-image: url('./assets/front.png') !important; */
+}
+
+button.rec-dot{
+    background-color: #FFC300;
+    box-shadow: gray;
+  }
+
+  .rec-dot, .lcUbOd, .eaptOe{
+      box-shadow: none !important;
+      border: none !important;
+  }
+
+  .lcUbOd{
+    box-shadow: none !important;
+    background-color: #FFB200 !important;
+    transform: scale(1.5) !important;
+  }
+
+  .lcUbOd:hover, .lcUbOd:focus {
+    box-shadow: none !important;
+    background-color: #FFB200 !important;
+  }
+
+  .cNNJIt:disabled{
+      cursor: default !important;
+  }
+
+  .jsUavU{
+    background: #EDE8E8 !important;
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    box-sizing: border-box !important;
+    backdrop-filter: blur(25px) !important;
+    border-radius: 7px !important;
+    color: #003566 !important;
+  }
