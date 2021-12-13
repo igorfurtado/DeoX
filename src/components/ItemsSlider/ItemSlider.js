@@ -26,7 +26,7 @@ export default function ItemSlider() {
                     <Item>
                         <div className="font-sora services-card">
                             <div><img src="./assets/phone-icon.png" style={{ width: "100px" }} alt="Deo X Cel"></img></div>
-                            <h3 className="sora-card">Deo X Cel</h3>
+                            <h3 className="sora-card">DeoX Cel</h3>
                         </div>
                     </Item>
                     <Item>
