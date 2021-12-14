@@ -13,50 +13,50 @@ export default function ItemSlider() {
     ];
 
     return (
-        <div>
-            <h1 style={{ textAlign: "center", marginTop: "65px", padding: " 0 120px" }} className="text-blue title-h2"><span className="text-orange">Tudo</span> que você sempre procurou em um banco digital</h1>
+        <div style={{ width: "100%", height: "100%" }}>
+            <h1 style={{ textAlign: "center" }} className="text-blue title-h2 title-section-2"><span className="text-orange">Tudo</span> que você sempre procurou em um banco digital</h1>
             <div className="App">
                 <Carousel breakPoints={breakPoints}>
                     <Item>
-                        <div className="font-sora services-card">
-                            <div><img src="./assets/pix-logo.png" style={{ width: "90px" }} alt="Deo X Pix"></img></div>
+                        <div className="font-sora services-card card-size">
+                            <div><img src="./assets/pix-logo.png" className="card-font-size" alt="Deo X Pix"></img></div>
                             <h3 className="sora-card">Pix</h3>
                         </div>
                     </Item>
                     <Item>
-                        <div className="font-sora services-card">
-                            <div><img src="./assets/phone-icon.png" style={{ width: "100px" }} alt="Deo X Cel"></img></div>
+                        <div className="font-sora services-card card-size">
+                            <div><img src="./assets/phone-icon.png" className="card-font-size" alt="Deo X Cel"></img></div>
                             <h3 className="sora-card">DeoX Cel</h3>
                         </div>
                     </Item>
                     <Item>
-                        <div className="font-sora services-card" style={{ marginTop: "15px" }}>
-                            <div><img src="./assets/bar-code-icon.png" style={{ width: "90px" }} alt="Barcode Deo X"></img></div>
+                        <div className="font-sora services-card card-size" style={{ marginTop: "15px" }}>
+                            <div><img src="./assets/bar-code-icon.png" className="card-font-size" alt="Barcode Deo X"></img></div>
                             <h3 className="sora-card">Boletos</h3>
                         </div>
                     </Item>
                     <Item>
-                        <div className="font-sora services-card">
-                            <div><img src="./assets/ted-icon.png" style={{ width: "90px" }} alt="TED icon Deo X"></img></div>
+                        <div className="font-sora services-card card-size">
+                            <div><img src="./assets/ted-icon.png" className="card-font-size" alt="TED icon Deo X"></img></div>
                             <h3 className="sora-card">TED</h3>
                         </div>
                     </Item>
                     <Item>
-                        <div className="font-sora services-card">
-                            <div><img src="./assets/doc-icon.png" style={{ width: "90px" }} alt="DOC icon Deo X"></img></div>
+                        <div className="font-sora services-card card-size">
+                            <div><img src="./assets/doc-icon.png" className="card-font-size" alt="DOC icon Deo X"></img></div>
                             <h3 className="sora-card">DOC</h3>
                         </div>
                     </Item>
                     <Item>
-                        <div className="font-sora services-card">
-                            <div><img src="./assets/qr-code-icon.png" style={{ width: "90px" }} alt="Pagamento com QR Code Deo X"></img></div>
+                        <div className="font-sora services-card card-size">
+                            <div><img src="./assets/qr-code-icon.png" className="card-font-size" alt="Pagamento com QR Code Deo X"></img></div>
                             <h3 className="sora-card">QR Code</h3>
                         </div>
                     </Item>
                     <Item>
-                        <div className="font-sora services-card">
-                            <div style={{ height: "115px" }}><img src="./assets/open-banking-icon.png" style={{ width: "90px" }} alt="Open banking Deo X"></img></div>
-                            <h3 className="sora-card" style={{ fontSize: "30px" }}>Open Banking</h3>
+                        <div className="font-sora services-card card-size">
+                            <div style={{ height: "115px" }}><img src="./assets/open-banking-icon.png" className="card-font-size" alt="Open banking Deo X"></img></div>
+                            <h3 className="sora-card open-banking">Open Banking</h3>
                         </div>
                     </Item>
                 </Carousel>
