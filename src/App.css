@@ -73,9 +73,9 @@ html{
     width: 100%;
     position: relative;
     overflow: hidden;
-    background-position: 50% 50%;
+    background-position: 90% 50%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -96,7 +96,7 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: calc(100vh + 600px) !important;
+    height: calc(100vh + 900px) !important;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -113,17 +113,18 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 600px;
+    align-items: center;
+    height: 900px;
     width: 100%;
     position: relative;
     overflow: hidden;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+    /* background-position: 50% 50%; */
+    /* background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
   }
   
   .bg-first-section, .bg-third-section{
@@ -135,7 +136,7 @@ html{
   }
   
   .bg-fifth-section{
-    background-image: url('./assets/bg_section5.jpg');
+    background-image: url('./assets/bg_section5_light.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -180,8 +181,25 @@ html{
     z-index: 5;
     margin-right: -2px;
   }
+
+  .mockup-description .title-h2-regular, .mockup-description .title-h1, .slider-container .title-h1{
+    font-size: 24px;
+  }
+
+  .mockup-description .title-h4{
+    font-size: 18px;
+    line-height: 140%;
+  }
+
+  .mockup-description .btn-medium{
+    width: 210px;
+  }
+
+  .mockup-description .title-h5{
+    font-size: 18px;
+  }
   
-  .image-bg-1 img, .mockup img{
+  .image-bg-1 img{
     position: relative;
     width: 80%;
     max-width: 80%;
@@ -260,34 +278,54 @@ html{
   
   .grid-seventh-section{
     display: grid;
-    grid-template: 1fr/2.5fr 1.5fr;
+    grid-template: 1fr/1fr;
     height: 100%;
     width: 100%;
+    overflow: hidden;
   }
   
-  .mockup, .mockup-block{
+  .mockup{
     position: absolute;
-    display: flex;
+    display: none;
     justify-content: flex-end;
     bottom: 0;
     right: 0;
   }
-  
+
   .mockup-block{
+    display: flex;
     position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    /* padding-left: 40px; */
+    margin-top: -140px;
+    z-index: 5;
   }
-  
-  .mockup img{
+
+  .mockup-block img{
+    height: 45%;
+  }
+
+  .mockup img {
     margin-right: 90px;
-    height: 700px;
+    height: 450px;
+    margin-bottom: 80px;
+  }
+
+  .margin-left-desc{
+    margin-left: 40px;
   }
   
   .mockup-description{
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
+    margin-top: 40px;
+    margin-right: 90px;
+    z-index: 10;
   }
   
   .description-photo-parallax{
@@ -295,9 +333,23 @@ html{
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: flex-start;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+
+  .description-photo-parallax::after{
+    content: '';
     margin-bottom: 50px;
+  }
+
+  .description-photo-parallax h2{ 
+    /* font-size: 24px; */
+  }
+
+  .description-photo-parallax h5{ 
+    font-size: 12px;
   }
   
   .doubts-container{
@@ -445,6 +497,29 @@ html{
   .qoLPS {
     max-width: 100% !important;
   }
+
+  .slide-title{
+    font-size: 14px !important;
+  }
+
+  .slide-text{
+    font-size: 12px !important;
+  }
+
+  .prev, .next {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+
+  .on-media{
+    margin-left: 40px !important;
+  }
+
+  .box-media {
+    width: 150px !important;
+    height: 150px !important;
+    padding: 10px !important;
+}
   
   /* Utilitárias */
   
@@ -587,6 +662,7 @@ html{
   }
 }
 
+
 @media screen and (min-width: 370px){
 
   .title-h1{
@@ -608,6 +684,32 @@ html{
 
   .grid-cards{
     grid-gap: 15px 15px;
+  }
+
+  .mockup-block img{
+  height: 50%;
+  }
+
+  .box-media{
+    width: 70% !important;
+    height: 200px !important;
+    padding: 30px 20px !important;
+  }
+
+  .slide-title{
+    font-size: 18px !important;
+  }
+
+  .slide-text{
+    font-size: 14px !important;
+  }
+
+  .description-photo-parallax{
+    margin-left: 40px;
+  }
+
+  .description-photo-parallax h5{ 
+    font-size: 14px;
   }
 }
 
@@ -632,7 +734,7 @@ html{
     margin-top: -200px;
   }
 
-  .image-bg-1 img, .mockup img{
+  .image-bg-1 img{
     width: 90%;
     max-width: 90%;
   }
@@ -656,6 +758,14 @@ html{
 
   .open-banking{
     font-size: 30px;
+  }
+
+  .description-photo-parallax h2{ 
+    font-size: 33px;
+  }
+
+  .description-photo-parallax h5{ 
+    font-size: 16px;
   }
 }
 
@@ -728,6 +838,35 @@ html{
     width: 170px;
     height: 170px;
   }
+
+  .slide-title{
+    font-size: 24px !important;
+  }
+
+  .slide-text{
+    font-size: 18px !important;
+  }
+
+  .prev, .next {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+}
+
+@media screen and (min-width: 580px) and (max-width:650px){
+  .on-media{
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 580px){
+  .mockup-block img{
+    height: 70%;
+  }
+
+  .mockup-block {
+    margin-top: -100px;
+  }
 }
 
 @media screen and (min-width: 680px){
@@ -742,10 +881,17 @@ html{
   .qoLPS {
     max-width: 70% !important;
   }
-
 }
 
 @media screen and (min-width: 740px){
+
+  .parallax-third-section{
+    height: calc(100vh + 600px) !important;
+  }
+
+  .parallax-section7{
+    height: 600px;
+  }
 
   .wrapper-section3 .title-h2{
     font-size: 30px;
@@ -775,11 +921,59 @@ html{
     margin-left: 90px;
     margin-right: 90px;
   }
+
+  .mockup{
+    display: flex;
+  }
+
+  .mockup-block{
+    display: none;
+  }
+
+  .grid-seventh-section{
+    grid-template: 1fr/2.5fr 1.5fr;
+  }
+
+  .mockup-description{
+    justify-content: center;
+    margin-right: 100px;
+    margin-top: 0;
+  }
+
+    .mockup-description .btn-medium{
+    width: 250px;
+  }
+
+  .mockup-description .title-h5{
+    font-size: 23px;
+  }
+
+  .margin-left-desc{
+    margin-left: 90px;
+  }
+
+  .on-media{
+    margin-left: 90px !important;
+  }
+
+  .description-photo-parallax h2{ 
+    font-size: 48px;
+  }
+
+  .description-photo-parallax h5{ 
+    font-size: 23px;
+  }
 }
 
 @media screen and (min-width: 800px){
   .grid-cards{
     grid-gap: 16px 44px;
+  }
+
+    .mockup img {
+    margin-right: 90px;
+    height: 550px;
+    margin-bottom: 50px;
   }
 }
 
@@ -787,10 +981,23 @@ html{
   .wrapper-section3 .title-h2{
     font-size: 39px;
   }
+
+  .mockup-description .title-h2-regular, .mockup-description .title-h1, .slider-container .title-h1{
+    font-size: 33px;
+  }
+
+  .mockup-description .title-h4{
+    font-size: 23px;
+    line-height: normal;
+  }
+
+  .description-photo-parallax{
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 992px){
-  .btn-large, .btn-medium, .btn-form{
+  .btn-large{
     width: 336px;
   }
 
@@ -813,18 +1020,52 @@ html{
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
   }
 
+  .mockup img {
+    margin-right: 90px;
+    height: 650px;
+    margin-bottom: 0;
+  }
+
+  .description-photo-parallax{
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-left: 90px;
+  }
 }
 
 @media screen and (min-width: 1100px){
   .box-title-1{
     margin-top: -280px;
   }
+
+  .mockup-description{
+    margin-right: 50px;
+  }
+
+  .slide-title{
+    font-size: 33px !important;
+  }
+
+  .slide-text{
+  font-size: 24px !important;
+  }
+
+  .prev, .next {
+    margin-left: 90px !important;
+    margin-right: 90px !important;
+  }
 }
 
 @media screen and (min-width: 1180px){
+
   .image-bg-1 img, .mockup img{
     width: 100%;
     max-width: 100%;
+  }
+
+    .mockup img{
+    margin-right: 90px;
+    height: 680px;
   }
 
   .margin-section{
@@ -836,6 +1077,14 @@ html{
     width: 45%;
     margin-top: 0;
   }
+
+  .mockup-description .title-h2-regular, .mockup-description .title-h1, .slider-container .title-h1{
+    font-size: 48px;
+  }
+
+  .mockup-description .title-h4{
+    font-size: 28px;
+  }
 }
 
 @media screen and (min-width: 1290px){
@@ -845,5 +1094,14 @@ html{
 }
 
 @media screen and (min-width: 1400px){
+  .parallax{
+    background-attachment: fixed;
+  }
+
+  .bg-fifth-section{
+    background-image: url('./assets/bg_section5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
