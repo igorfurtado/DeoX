@@ -19,7 +19,7 @@ function DoubtsBox() {
     };
 
     return (
-        <div style={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+        <div style={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", justifyContent: "center", marginBottom: "10px" }}>
             <ListItems items={items} onShowDesc={onShowDesc} />
         </div>
     );
