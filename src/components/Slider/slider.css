@@ -71,7 +71,7 @@
     margin-right: 90px;
     font-size: 30px;
     font-weight: bold;
-    color: #FFC300;
+    color: #D4AD68;
     border-radius: 0px 5px 5px 0px;
     transition: all 0.3s ease-out;
 }
@@ -101,7 +101,7 @@
     height: 1rem;
     width: 1rem;
     margin: 0px 3px;
-    background-color: rgb(255, 178, 0, 0.3);
+    background-color: rgb(212, 173, 104, 0.3);
     border-radius: 50%;
     display: inline-block;
     transition: all 0.3s ease-out;

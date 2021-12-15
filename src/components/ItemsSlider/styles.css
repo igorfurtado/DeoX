@@ -13,14 +13,14 @@
 .jRFJkP, .cNNJIt {
     background-color: transparent !important;
     /* background-image: url('./assets/front.png') !important; */
-    color: #FFC300 !important;
+    color: #D4AD68 !important;
     border: none !important;
     font-size: 55px !important;
     box-shadow: none !important;
 }
 
 button.rec-dot{
-    background-color: #FFC300;
+    background-color: #D4AD68;
     box-shadow: gray;
   }
 
@@ -31,13 +31,13 @@ button.rec-dot{
 
   .lcUbOd{
     box-shadow: none !important;
-    background-color: #FFB200 !important;
+    background-color: #AD8A4C !important;
     transform: scale(1.5) !important;
   }
 
   .lcUbOd:hover, .lcUbOd:focus {
     box-shadow: none !important;
-    background-color: #FFB200 !important;
+    background-color: #AD8A4C !important;
   }
 
   .cNNJIt:disabled{
