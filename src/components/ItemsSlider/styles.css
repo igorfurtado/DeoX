@@ -10,7 +10,7 @@
     max-width: 70%;
 }
 
-.jRFJkP, .cNNJIt {
+.jRFJkP, .cNNJIt, .fVgyLU {
     background-color: transparent !important;
     /* background-image: url('./assets/front.png') !important; */
     color: #D4AD68 !important;
@@ -29,18 +29,18 @@ button.rec-dot{
       border: none !important;
   }
 
-  .lcUbOd{
+  .lcUbOd, .bBjxWM{
     box-shadow: none !important;
     background-color: #AD8A4C !important;
     transform: scale(1.5) !important;
   }
 
-  .lcUbOd:hover, .lcUbOd:focus {
+  .lcUbOd:hover, .lcUbOd:focus, .bBjxWM:hover, .bBjxWM:focus  {
     box-shadow: none !important;
     background-color: #AD8A4C !important;
   }
 
-  .cNNJIt:disabled{
+  .cNNJIt:disabled, .fViXLK:disabled{
       cursor: default !important;
   }
 

@@ -6,7 +6,7 @@ export default function FifthSection() {
         <div className="section-module parallax-section7 bg-seventh-section">
             <div className="grid-seventh-section">
                 <div style={{ position: "absolute", width: "100%", height: "100%", overflow: "hidden" }}>
-                    <img style={{ width: "100%", height: "100%" }} src="../assets/bg-white-noise.jpg" alt="Light background"></img>
+                    <img style={{ width: "100%", height: "100%" }} src="./assets/bg-white-noise.jpg" alt="Light background"></img>
                 </div>
                 <div className="mockup-description margin-left-desc">
                     <h2 className="title-h2-regular text-blue">Deo X</h2>
@@ -15,7 +15,7 @@ export default function FifthSection() {
                     <AnchorLink href='#form-contact' style={{ textDecoration: "none" }}><button className="btn-medium title-h5 text-blue" style={{ marginTop: "30px" }}>comece agora</button></AnchorLink>
                 </div>
                 <div className="mockup-block">
-                    <img src="../assets/mockup.png" alt="Mockup app Deo X"></img>
+                    <img src="./assets/mockup.png" alt="Mockup app Deo X"></img>
                 </div>
             </div>
         </div>

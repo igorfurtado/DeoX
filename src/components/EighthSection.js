@@ -63,10 +63,10 @@ export default function SixthSection() {
                         <h2 style={{ lineHeight: "110%" }} className="text-blue title-h2">Baixe o app do Deo X e abra<br />sua conta em poucos<br />minutos.</h2>
                         <div style={{ marginTop: "40px", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column" }}>
                             <div>
-                                <img className="google-badge" src="../assets/google-play-badge.png" alt="GooglePlay badge"></img>
+                                <img className="google-badge" src="./assets/google-play-badge.png" alt="GooglePlay badge"></img>
                             </div>
                             <div>
-                                <img className="apple-badge" src="../assets/apple-store-badge.png" alt="Apple Store badge"></img>
+                                <img className="apple-badge" src="./assets/apple-store-badge.png" alt="Apple Store badge"></img>
                             </div>
                         </div>
                     </div>

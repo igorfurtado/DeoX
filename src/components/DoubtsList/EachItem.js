@@ -17,7 +17,7 @@ export default function EachItem(props) {
                 <div onClick={showDescSelected} id="selectedId" className="title-area">
                     {props.item.title}
                     <div onClick={showDescSelected} id="selectedId">
-                        <img className="plusImg" alt="Plus icon - Deo X" src="../../assets/plus.png" onClick={showDescSelected} id="selectedId"></img>
+                        <img className="plusImg" alt="Plus icon - Deo X" src="./assets/plus.png" onClick={showDescSelected} id="selectedId"></img>
                     </div>
                 </div>
                 <div className={props.item.open ? "descriptionCard" : "descriptionCard fadeOut"}>
