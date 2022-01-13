@@ -15,7 +15,7 @@ export default function ThirdSection() {
 
                     <div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center" }}>
                         <h2 className="title-h2 text-blue benefits-title1">Conta digital gratuita, pagamento
-                            via QR Code, investimentos, DOC, Ted, seguros e muito mais. </h2>
+                            via QR Code, DOC, Ted, seguros e muito mais. </h2>
                         <div className="benefits-title2">
                             <h2 className="title-h2 text-blue">Sem tarifas:</h2>
                             <h3 className="title-h4 text-blue">Seu dinheiro merece ser economizado</h3>
