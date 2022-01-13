@@ -24,27 +24,27 @@ export default function ThirdSection() {
                             <div className="grid-cards">
                                 <div className="benefits-card paragraph-poppins">
                                     <p className="paragraph-poppins">Saque <br />sem tarifa</p>
-                                    <img className="img-card-benefits" src="./assets/noTax.png" alt="No Tax - Deo X" style={{ marginTop: "-15px" }}></img>
+                                    <img className="img-card-benefits" src="./assets/noTax.png" alt="No Tax - Deo X"></img>
                                 </div>
                                 <div className="benefits-card paragraph-poppins">
-                                    <p className="paragraph-poppins">Programa de pontos sem custo</p>
-                                    <img className="img-card-benefits" src="./assets/points-icon.png" alt="Points program - Deo X" style={{ marginTop: "-5px" }}></img>
+                                    <p className="paragraph-poppins">Sem taxa de manutenção</p>
+                                    <img className="img-card-benefits" src="./assets/zero-fee.png" alt="Zero maintenance fee - Deo X"></img>
                                 </div>
                                 <div className="benefits-card paragraph-poppins">
                                     <p className="paragraph-poppins">Atendimento 24hrs</p>
-                                    <img className="img-card-benefits" src="./assets/time-icon.png" alt="24hrs - Deo X" style={{ marginTop: "-10px" }}></img>
+                                    <img className="img-card-benefits" src="./assets/time-icon.png" alt="24hrs - Deo X"></img>
                                 </div>
                                 <div className="benefits-card paragraph-poppins">
-                                    <p className="paragraph-poppins">Acesso à plataforma de investimentos</p>
-                                    <img className="img-card-benefits" src="./assets/invest-icon.png" alt="Invest - Deo X" style={{ marginTop: "-5px" }}></img>
+                                    <p className="paragraph-poppins">Pagamentos pelo app</p>
+                                    <img className="img-card-benefits" src="./assets/smartphone-hand.png" alt="Payment by app - Deo X"></img>
                                 </div>
                                 <div className="benefits-card paragraph-poppins">
-                                    <p className="paragraph-poppins">Cartão <br />pré-pago</p>
-                                    <img className="img-card-benefits" src="./assets/card-icon.png" alt="Cards - Deo X" style={{ marginTop: "-15px" }}></img>
+                                    <p className="paragraph-poppins">Sem <br /> anuidade</p>
+                                    <img className="img-card-benefits" src="./assets/zero-annuity.png" alt="Zero annuity - Deo X"></img>
                                 </div>
                                 <div className="benefits-card paragraph-poppins">
                                     <p className="paragraph-poppins">Consultoria de seguros</p>
-                                    <img className="img-card-benefits" src="./assets/security-icon.png" alt="Insurance - Deo X" style={{ marginTop: "-15px" }}></img>
+                                    <img className="img-card-benefits" src="./assets/security-icon.png" alt="Insurance - Deo X"></img>
                                 </div>
                             </div>
                         </div>
