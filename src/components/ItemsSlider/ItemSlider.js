@@ -14,7 +14,7 @@ export default function ItemSlider() {
 
     return (
         <div style={{ width: "100%", height: "100%" }}>
-            <h1 style={{ textAlign: "center" }} className="text-blue title-h2 title-section-2"><span className="text-orange">Tudo</span> que você sempre procurou em um banco digital</h1>
+            <h2 style={{ textAlign: "center" }} className="text-blue title-h2 title-section-2"><span className="text-orange">Tudo</span> que você sempre procurou em um banco digital</h2>
             <div className="App">
                 <Carousel breakPoints={breakPoints}>
                     <Item>

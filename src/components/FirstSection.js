@@ -4,7 +4,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 export default function FirstSection() {
     return (
         <section className=" section-module first-section bg-first-section">
-            <div className="margin-section">
+            <article className="margin-section">
                 <div style={{ position: "relative", zIndex: "100", marginLeft: "20px" }}>
                     <div className="box-title-1">
                         <h1 className="title-h1 text-blue">Pague, invista e guarde seu dinheiro em um único <span className="text-orange">banco digital.</span></h1>
@@ -14,7 +14,7 @@ export default function FirstSection() {
                 <div className="image-bg-1">
                     <img src="./assets/bg_section1.png" alt="Mulher feliz + Deo X"></img>
                 </div>
-            </div>
+            </article>
         </section>
     )
 };

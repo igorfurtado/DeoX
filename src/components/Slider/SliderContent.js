@@ -7,10 +7,10 @@ export default function SliderContent({ activeIndex, imageSlider }) {
                 <img className="slide-image" src={slide.urls} alt=""></img>
                 <h2 className="text-blue title-h1-media on-media">Deo X na mídia.</h2>
                 <div className="wrapper-media">
-                    <div className="box-media">
-                        <h2 className="slide-title"><span className="text-orange">|</span>{slide.title}</h2>
-                        <h3 className="slide-text">{slide.description}</h3>
-                    </div>
+                    <blockquote className="box-media">
+                        <h3 className="slide-title"><span className="text-orange">|</span>{slide.title}</h3>
+                        <p className="slide-text">{slide.description}</p>
+                    </blockquote>
                 </div>
             </div>
             )}
